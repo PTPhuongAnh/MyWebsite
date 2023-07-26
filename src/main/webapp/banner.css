@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+outline: none;
+border: none;
+text-decoration: none;
+text-transform: capitalize;
+transition: .2s linear;
+}
+.home123{
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background: url("./image/H2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.home123 .content{
+    max-width: 50rem;
+    padding:2rem;
+
+}
+.home123 .content h2{
+    font-size: 3rem;
+    color: #333;
+  
+}
+.home123 .content p{
+    font-size: 1rem;
+    color:#605d5d;
+   padding: 1rem 0;
+    line-height: 1.5;
+
+}
